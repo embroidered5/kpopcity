@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-/* change: added color #fadae7 to my background */
 body {
   background-color: #fadae7;
   max-width: 2000px;
@@ -47,7 +46,7 @@ a:hover {
 a:active {
   color: #f63684;
 }
-/*change: added black for my "you are here" indicator because all the other colors were too hard to see */
+/*added black for my "you are here" indicator because all the other colors were too hard to see */
 a.current {
   color: #000000;
   text-decoration: underline;
@@ -90,7 +89,7 @@ header p {
 }
 
 .hero {
-  background-image: url(../images/web150_asn2_hero.jpg);
+  background-image: url(../images/kpopcity_hero.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
