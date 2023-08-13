@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="K-pop City: All things K-pop">
+    <title>K-pop City: Reach out to us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <nav class="row">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html" class="current">Contact</a>
+    </nav>
+
+    <header class="head">
+        <div>
+            <h1>Contact Us</h1>
+            <p>We will return your request in 1-2 business days.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="column">
+            <form>
+                <label for="first">First Name:</label>
+                <input type="text" id="first" name="firstname">
+
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" name="lastname">
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email">
+
+                <label for="subject">Subject:</label>
+                <textarea id="subject" name="subject"></textarea>
+
+                <label for="why">What is your request regarding?</label>
+                <select name="why" id="why">
+                    <option value="selection">--Select one--</option>
+                    <option value="service">Customer service</option>
+                    <option value="product">A comment</option>
+                    <option value="question">A question</option>
+                </select>
+
+                Have you shopped with us before?
+                <div>
+                    <input type="radio" id="no" name="shopped" value="No">
+                    <label for="no">Not yet!</label>
+                </div>
+                <div>
+                    <input type="radio" id="yes" name="shopped" value="Yes">
+                    <label for="yes">Yes!</label>
+                </div>
+
+                <p>Would you like to sign up for our newsletter to keep up with new releases?</p>
+
+                <div>
+                    <input type="checkbox" id="nothx" name="nothx" value="No">
+                    <label for="nothx">No, thank you.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="yespls" name="yespls" value="Yes">
+                    <label for="yespls">Yes, please!</label>
+                </div>
+
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div>
+                <section>
+                    <h2>Locations</h2>
+                    <p>
+                        111 Musical Lane, Ncity, USA
+                    </p>
+                    <p>
+                        222 Playlist Plaza, Ncity, USA
+                    </p>
+                </section>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2961.2260252353863!2d-88.07526542475361!3d42.081206552674495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fa5ea9833a843%3A0xeb56837f813674f!2sHarper%20College!5e0!3m2!1sen!2sus!4v1682278967327!5m2!1sen!2sus"
+                width="500" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <p class="end">2023 K-pop City</p>
+    </footer>
+
+</body>
+
+</html>
